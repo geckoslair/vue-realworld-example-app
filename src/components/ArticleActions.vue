@@ -2,7 +2,7 @@
   <!-- Used when user is also author -->
   <span v-if="canModify">
     <router-link
-      class="btn btn-sm btn-outline-secondary"
+      class="btn btn-md btn-outline-secondary"
       :to="{ name: 'article-edit', params: { slug: this.article.slug } }"
     >
       <i class="ion-edit"></i><span>&nbsp;Edit Article</span>
